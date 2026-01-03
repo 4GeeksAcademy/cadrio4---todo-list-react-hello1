@@ -1,11 +1,56 @@
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap');
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+
+
+
+ul li {
+    border: 1px solid grey;
+    list-style: none;
+}
+
+li {
+    height: 45px;
+}
+
+body {
+    margin-top: 100px;
+    font-family: "Playwrite US Trad Guides";
+    font-style: normal;
+    font-size: 18px;
+}
+
+.task {
+    display: flex;
+    justify-content: left;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.todo {
+    padding: 8px 12px;
+}
+
+.todo:hover .button {
+    opacity: 1;
+}
+
+
+.button {
+    opacity: 0;
+    background: none;
+    border: none;
+    color: #dc3545; /* rojo Bootstrap */
+    transition: opacity 0.2s ease;
+    font-size: 20px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+
+
